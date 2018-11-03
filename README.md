@@ -7,3 +7,7 @@ The code is uploaded in the file named "CODE".
 
 THE BOT is being controlled by a remote. 
 The parts required are being mentioned in the seperate file.
+
+The bot can move forward backward right and left that is it basically functions as a full car.
+
+#### PS: MY batteries were about to die thats why the car was moving a bit slow. USE NEW BATTERIES.
