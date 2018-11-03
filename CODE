@@ -1,0 +1,40 @@
+# THE CODE IS AS FOLLOWS
+## PLEASE EDIT ONLY IF IT GUARENTEES TO FUNCTION
+
+const int motorPin1=9;//Pin 14 of L293
+const int motorPin2=10;//Pin 10 of L293
+const int motorPin3=11;
+const int motorPin4=12;
+void setup()
+{
+  pinMode(motorPin1,OUTPUT);
+  pinMode(motorPin2,OUTPUT);
+  pinMode(motorPin3,OUTPUT);
+  pinMode(motorPin4,OUTPUT);
+}
+void loop()
+{ 
+  analogWrite(motorPin1,240);
+  analogWrite(motorPin2,0);
+  analogWrite(motorPin3,240);
+  analogWrite(motorPin4,0);
+  delay(1000);
+
+  analogWrite(motorPin1,0);
+  analogWrite(motorPin2,0);
+  analogWrite(motorPin3,0);
+  analogWrite(motorPin4,0);
+  delay(1000);
+
+  analogWrite(motorPin1,0);
+  analogWrite(motorPin2,240);
+  analogWrite(motorPin3,0);
+  analogWrite(motorPin4,240);
+  delay(1000);
+
+  analogWrite(motorPin1,0);
+  analogWrite(motorPin2,0);
+  analogWrite(motorPin3,0);
+  analogWrite(motorPin4,0);
+  delay(1000);
+}
